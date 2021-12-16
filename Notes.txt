@@ -1,0 +1,17 @@
+If you see the string [##########] you want to merge that from your current settings file.
+
+
+GameUserSettings.ini:
+
+This is how you set dino levels. This will set them to max out at 120 IIRC
+DifficultyOffset=1.0
+OverrideOfficialDifficulty=4.0
+
+The 4.0 gets multiplied by 30 to set max level. I recommend starting lower and only raising as you level. The Island is current at 7.0. Tek can spawn higher
+
+AllowMakingWeaponsAndArmorBPs=TRUE lets you use the blueprint maker to destroy an item to turn it into a blueprint. If you don't want to allow this, you can just remove this line
+
+
+Game.ini:
+
+SupplyCrateLootQualityMultiplier=2.000000 gives better items; I usually raise it to 3 or 4 during events
